@@ -6,24 +6,22 @@ Makan Timuran adalah sebuah website yang dibuat untuk memperkenalkan dan melesta
 
 ## ⚙️ Fitur JavaScript pada Website “Makan Timuran”
 
-1. Highlight Menu Navigasi Otomatis : Saat pengguna menggulir (scroll) halaman, menu navigasi secara otomatis menyorot (highlight) tautan yang sesuai dengan bagian (section) yang sedang terlihat.
+- Highlight Menu Navigasi Otomatis : Saat pengguna menggulir (scroll) halaman, menu navigasi secara otomatis menyorot (highlight) tautan yang sesuai dengan bagian (section) yang sedang terlihat.
 
-2. Scroll to Top Button (Tombol Kembali ke Atas) : Tombol melayang berbentuk “↑” akan muncul di pojok kanan bawah ketika pengguna menggulir ke bawah lebih dari 300px.
+- Scroll to Top Button (Tombol Kembali ke Atas) : Tombol melayang berbentuk “↑” akan muncul di pojok kanan bawah ketika pengguna menggulir ke bawah lebih dari 300px.
 Saat diklik, halaman akan otomatis bergulir halus (smooth scroll) kembali ke atas.
 
-3. Hero Text Fade-In Animation : Ketika halaman selesai dimuat (window.load), teks utama pada bagian hero muncul perlahan dengan efek fade-in agar tampilan lebih menarik dan hidup.
+- Hero Text Fade-In Animation : Ketika halaman selesai dimuat (window.load), teks utama pada bagian hero muncul perlahan dengan efek fade-in agar tampilan lebih menarik dan hidup.
 
-4. Efek Navbar Saat Scroll (Navbar Scroll Effect) : Bagian navbar (header) akan berubah warna atau transparansi ketika pengguna menggulir ke bawah lebih dari 60px.
+- Efek Navbar Saat Scroll (Navbar Scroll Effect) : Bagian navbar (header) akan berubah warna atau transparansi ketika pengguna menggulir ke bawah lebih dari 60px.
 Efek ini membuat tampilan navbar tetap elegan dan mudah terlihat.
 
-5. Animasi Fade-In Saat Scroll (Fade-In on Scroll) : Beberapa elemen seperti teks tentang, gambar tim, dan bagian visi-misi akan muncul perlahan dengan efek fade-in ketika pengguna menggulir ke posisi elemen tersebut.
+- Animasi Fade-In Saat Scroll (Fade-In on Scroll) : Beberapa elemen seperti teks tentang, gambar tim, dan bagian visi-misi akan muncul perlahan dengan efek fade-in ketika pengguna menggulir ke posisi elemen tersebut.
 
-
-6. Pesan Sukses pada Formulir Kontak (showSuccessMessage) : Ketika pengguna mengirim formulir pada halaman Kontak, akan muncul notifikasi “Pesan Anda telah berhasil dikirim. Terima kasih!”
+- Pesan Sukses pada Formulir Kontak (showSuccessMessage) : Ketika pengguna mengirim formulir pada halaman Kontak, akan muncul notifikasi “Pesan Anda telah berhasil dikirim. Terima kasih!”
 Pesan ini muncul selama beberapa detik lalu menghilang otomatis menggunakan fungsi showSuccessMessage().
 
-
-7. Duplikasi Tombol Kembali ke Atas (Back to Top) : Dalam kode JavaScript terdapat dua pembuatan tombol “↑” (bagian scrollBtn dan topBtn) yang memiliki fungsi sama, yaitu membawa halaman ke atas.
+- Duplikasi Tombol Kembali ke Atas (Back to Top) : Dalam kode JavaScript terdapat dua pembuatan tombol “↑” (bagian scrollBtn dan topBtn) yang memiliki fungsi sama, yaitu membawa halaman ke atas.
 Ini sebenarnya bisa disederhanakan menjadi satu tombol agar lebih efisien.
 
 
