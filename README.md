@@ -46,9 +46,7 @@ Ini sebenarnya bisa disederhanakan menjadi satu tombol agar lebih efisien.
 | 4 | **galeri.html** | Halaman galeri foto | Berisi koleksi foto-foto makanan khas Jawa Timur dengan efek hover zoom. |
 | 5 | **cerita.html** | Halaman artikel kuliner | Berisi kisah dan sejarah kuliner Jawa Timur seperti perkembangan cita rasa dan warisan budaya. |
 | 6 | **contact.html** | Halaman kontak | Menyediakan form untuk mengirim pesan serta menampilkan kontak media sosial. |
-| 7 | **styles.css** | File gaya utama | Mengatur tampilan website: tema gelap, warna oranye hangat, layout grid, dan efek animasi. |
-| 8 | **script.js** | File JavaScript utama | Mengatur interaksi seperti tombol “Scroll to Top”, animasi scroll, efek navbar, dan notifikasi form. |
-| 9 | **Foto/** *(opsional)* | Folder gambar lokal | Berisi gambar tim atau ilustrasi lokal yang digunakan di halaman Tentang. |
+| 7 | **Foto/** *(opsional)* | Folder gambar lokal | Berisi gambar tim atau ilustrasi lokal yang digunakan di halaman Tentang. |
 
 ---
 
