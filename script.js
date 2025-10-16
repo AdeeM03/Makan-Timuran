@@ -69,7 +69,7 @@ function fadeInOnScroll() {
 window.addEventListener("scroll", fadeInOnScroll);
 window.addEventListener("load", fadeInOnScroll);
 
-// ========== BACK TO TOP BUTTON ==========
+/* Back To Top */
 const topBtn = document.createElement("button");
 topBtn.textContent = "↑";
 topBtn.className = "scroll-top";
@@ -87,7 +87,7 @@ topBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-/* Contact */
+/* Feedback */
 function showSuccessMessage() {
   const msg = document.getElementById("success-msg");
   msg.style.display = "block";
@@ -101,3 +101,4 @@ function showSuccessMessage() {
     setTimeout(() => (msg.style.display = "none"), 500);
   }, 4000);
 }
+
