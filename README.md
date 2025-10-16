@@ -1,1 +1,2 @@
 # Makan-Timuran
+Makan Timuran adalah sebuah website yang dibuat untuk memperkenalkan dan melestarikan kekayaan kuliner tradisional dari Provinsi Jawa Timur. Melalui situs ini, pengunjung dapat mempelajari berbagai informasi mengenai asal-usul, bahan, dan cita rasa khas dari beragam hidangan seperti Rujak Cingur, Lontong Balap, dan Soto Lamongan. Website ini bertujuan untuk menjadi media edukatif sekaligus promosi budaya kuliner daerah agar tetap dikenal dan dicintai oleh generasi muda.
