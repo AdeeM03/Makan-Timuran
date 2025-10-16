@@ -32,14 +32,6 @@ Ini sebenarnya bisa disederhanakan menjadi satu tombol agar lebih efisien.
 | 1 | **HTML5** | *Markup Language* | Digunakan untuk membangun struktur halaman website seperti header, section, artikel, gambar, dan formulir. |
 | 2 | **CSS3** | *Styling Language* | Mengatur tampilan visual website — termasuk warna, layout grid, animasi hover, efek transisi, dan tema gelap (*dark mode*). |
 | 3 | **JavaScript (Vanilla JS)** | *Programming Language* | Memberikan interaktivitas pada website, seperti animasi scroll, tombol kembali ke atas, efek navigasi, dan notifikasi pesan pada form kontak. |
-| 4 | **Responsive Design (Media Queries)** | *CSS Feature* | Membuat tampilan website menyesuaikan ukuran layar (desktop, tablet, dan mobile). |
-| 5 | **Flexbox & Grid Layout** | *CSS Layout System* | Mengatur posisi elemen (menu, galeri, kartu tim) agar rapi dan responsif. |
-| 6 | **DOM Manipulation (Document Object Model)** | *JavaScript API* | Mengontrol elemen HTML secara dinamis, misalnya menambah class saat scroll atau menampilkan pesan sukses. |
-| 7 | **Font: Poppins (Google Fonts)** | *Typography* | Memberikan tampilan teks yang modern dan bersih. |
-| 8 | **External Image Hosting** | *Resource CDN* | Gambar kuliner diambil dari sumber eksternal (Bing Images, Timesmedia, IDNTimes) agar halaman cepat dimuat. |
-| 9 | **Sticky Navigation Bar** | *CSS + JS* | Navbar tetap di bagian atas layar saat pengguna menggulir halaman. |
-| 10 | **Smooth Scrolling & Animation Effects** | *JavaScript + CSS Transitions* | Membuat pengalaman navigasi yang lembut dan nyaman bagi pengguna. |
-
 ---
 
 ---
