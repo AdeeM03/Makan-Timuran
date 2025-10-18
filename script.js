@@ -40,7 +40,7 @@ scrollBtn.addEventListener("click", () => {
 
 // ========== SIMPLE HERO TEXT FADE-IN ==========
 window.addEventListener("load", () => {
-  const heroText = document.querySelector(".hero-content");
+  const heroText = document.querySelector(".hero-text");
   heroText.classList.add("visible");
 });
 // ========== NAVBAR SCROLL EFFECT ==========
@@ -139,5 +139,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // Auto-slide tiap 5 detik
   setInterval(() => showSlide(index + 1), 5000);
 });
+
 
 
