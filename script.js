@@ -102,3 +102,42 @@ function showSuccessMessage() {
   }, 4000);
 }
 
+/* === GALERI SLIDER === */
+document.addEventListener("DOMContentLoaded", () => {
+  const slides = document.querySelector(".slides");
+  const images = document.querySelectorAll(".slides img");
+  const prev = document.querySelector(".prev");
+  const next = document.querySelector(".next");
+  const dotsContainer = document.querySelector(".dots");
+
+  if (!slides) return;
+
+  let index = 0;
+
+  // Buat titik navigasi otomatis
+  images.forEach((_, i) => {
+    const dot = document.createElement("span");
+    dot.classList.add("dot");
+    if (i === 0) dot.classList.add("active");
+    dot.addEventListener("click", () => showSlide(i));
+    dotsContainer.appendChild(dot);
+  });
+  const dots = document.querySelectorAll(".dot");
+
+  function showSlide(n) {
+    if (n >= images.length) index = 0;
+    else if (n < 0) index = images.length - 1;
+    else index = n;
+    slides.style.transform = `translateX(-${index * 100}%)`;
+    dots.forEach(dot => dot.classList.remove("active"));
+    dots[index].classList.add("active");
+  }
+
+  next.addEventListener("click", () => showSlide(index + 1));
+  prev.addEventListener("click", () => showSlide(index - 1));
+
+  // Auto-slide tiap 5 detik
+  setInterval(() => showSlide(index + 1), 5000);
+});
+
+
