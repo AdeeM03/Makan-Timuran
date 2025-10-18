@@ -136,9 +136,13 @@ document.addEventListener("DOMContentLoaded", () => {
   next.addEventListener("click", () => showSlide(index + 1));
   prev.addEventListener("click", () => showSlide(index - 1));
 
-  // Auto-slide tiap 5 detik
+  // Auto-slide
+if (slides && images.length > 0 && prev && next) {
+  next.addEventListener("click", () => showSlide(index + 1));
+  prev.addEventListener("click", () => showSlide(index - 1));
   setInterval(() => showSlide(index + 1), 5000);
-});
+}
+
 
 
 
