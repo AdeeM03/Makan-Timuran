@@ -4,67 +4,64 @@ Makan Timuran adalah sebuah website yang dibuat untuk memperkenalkan dan melesta
 ![IMG](https://github.com/AdeeM03/Makan-Timuran/blob/ba7cbcd0e555ef22f819f86d8b0c85ab12b051e6/IMG/ss1.png).
 ![IMG](https://github.com/AdeeM03/Makan-Timuran/blob/732722d779227fd1165b486b459e82ff80b3b5c3/IMG/ss2.png).
 
-## ⚙️ Fitur JavaScript pada Website “Makan Timuran”
+## ✨ Fitur Utama
+### 👤 Fitur Member
+- Login & Logout menggunakan session PHP
+- Password terenkripsi (`password_hash`)
+- Melihat rekomendasi tempat makan
+- Melihat user online
+- Navigasi dan UI konsisten
 
-- Highlight Menu Navigasi Otomatis : Saat pengguna menggulir (scroll) halaman, menu navigasi secara otomatis menyorot (highlight) tautan yang sesuai dengan bagian (section) yang sedang terlihat.
+### 🛠️ Fitur Admin
+- Login khusus admin (role-based access)
+- Dashboard admin
+- Monitoring user online **realtime**
+- Statistik total user & tempat rekomendasi
+- Menambahkan tempat rekomendasi via website (tanpa input manual DB)
 
-- Scroll to Top Button (Tombol Kembali ke Atas) : Tombol melayang berbentuk “↑” akan muncul di pojok kanan bawah ketika pengguna menggulir ke bawah lebih dari 300px.
-Saat diklik, halaman akan otomatis bergulir halus (smooth scroll) kembali ke atas.
+### 📍 Rekomendasi Tempat
+- Data dari database MySQL
+- Detail tempat (alamat, jam, kontak)
+- Integrasi Google Maps
+- CRUD dibatasi khusus admin
+---
 
-- Hero Text Fade-In Animation : Ketika halaman selesai dimuat (window.load), teks utama pada bagian hero muncul perlahan dengan efek fade-in agar tampilan lebih menarik dan hidup.
-
-- Efek Navbar Saat Scroll (Navbar Scroll Effect) : Bagian navbar (header) akan berubah warna atau transparansi ketika pengguna menggulir ke bawah lebih dari 60px.
-Efek ini membuat tampilan navbar tetap elegan dan mudah terlihat.
-
-- Animasi Fade-In Saat Scroll (Fade-In on Scroll) : Beberapa elemen seperti teks tentang, gambar tim, dan bagian visi-misi akan muncul perlahan dengan efek fade-in ketika pengguna menggulir ke posisi elemen tersebut.
-
-- Pesan Sukses pada Formulir Kontak (showSuccessMessage) : Ketika pengguna mengirim formulir pada halaman Kontak, akan muncul notifikasi “Pesan Anda telah berhasil dikirim. Terima kasih!”
-Pesan ini muncul selama beberapa detik lalu menghilang otomatis menggunakan fungsi showSuccessMessage().
-
-- Duplikasi Tombol Kembali ke Atas (Back to Top) : Dalam kode JavaScript terdapat dua pembuatan tombol “↑” (bagian scrollBtn dan topBtn) yang memiliki fungsi sama, yaitu membawa halaman ke atas.
-Ini sebenarnya bisa disederhanakan menjadi satu tombol agar lebih efisien.
-
+### ⚙️ Fitur JavaScript
+- Highlight menu navigasi otomatis
+- Scroll to Top button
+- Hero text fade-in animation
+- Navbar effect saat scroll
+- Fade-in element saat scroll
+- Realtime fetch data (monitoring user online)
+---
 
 ## 💻 Teknologi yang Digunakan
-
-| No | Teknologi | Jenis | Fungsi Utama dalam Website |
-|:--:|:--|:--|:--|
-| 1 | **HTML5** | *Markup Language* | Digunakan untuk membangun struktur halaman website seperti header, section, artikel, gambar, dan formulir. |
-| 2 | **CSS3** | *Styling Language* | Mengatur tampilan visual website — termasuk warna, layout grid, animasi hover, efek transisi, dan tema gelap (*dark mode*). |
-| 3 | **JavaScript (Vanilla JS)** | *Programming Language* | Memberikan interaktivitas pada website, seperti animasi scroll, tombol kembali ke atas, efek navigasi, dan notifikasi pesan pada form kontak. |
+| Teknologi | Fungsi |
+|---------|-------|
+| HTML5 | Struktur halaman |
+| CSS3 | Styling & layout |
+| JavaScript | Interaksi & realtime |
+| PHP Native | Backend & authentication |
+| MySQL | Database |
+| Apache (XAMPP) | Web server |
 ---
 
+## 🧭 Alur Sistem
+
+1. User membuka website
+2. Login sebagai member atau admin
+3. Session disimpan di database
+4. Admin dapat memantau user online secara realtime
+5. Logout menghapus session dan menonaktifkan status user
 ---
 
-### 🧩 Penjelasan Tiap Bagian
-
-| No | File / Folder | Fungsi | Isi Utama |
-|:--:|:--|:--|:--|
-| 1 | **index.html** | Halaman utama (Beranda) | Menampilkan pengantar website, menu unggulan, galeri, testimoni, dan kontak. |
-| 2 | **tentang.html** | Halaman “Tentang Kami” | Menjelaskan visi, misi, dan tim pembuat website. |
-| 3 | **menu.html** | Halaman daftar menu | Menampilkan berbagai kuliner khas Jawa Timur dalam layout grid dengan gambar dan deskripsi. |
-| 4 | **galeri.html** | Halaman galeri foto | Berisi koleksi foto-foto makanan khas Jawa Timur dengan efek hover zoom. |
-| 5 | **cerita.html** | Halaman artikel kuliner | Berisi kisah dan sejarah kuliner Jawa Timur seperti perkembangan cita rasa dan warisan budaya. |
-| 6 | **contact.html** | Halaman kontak | Menyediakan form untuk mengirim pesan serta menampilkan kontak media sosial. |
-| 7 | **Foto/** *(opsional)* | Folder gambar lokal | Berisi gambar tim atau ilustrasi lokal yang digunakan di halaman Tentang. |
-
+## 🎯 Tujuan Pengembangan
+- Media edukasi kuliner Jawa Timur
+- Implementasi fullstack web
+- Latihan authentication & authorization
+- Proyek **UAS Website**
 ---
 
-### 🧭 Hubungan Antarhalaman
-- Semua halaman terhubung melalui **navigasi utama (navbar)** di bagian atas.  
-- Setiap halaman memiliki struktur **header → konten utama → kontak → footer**.  
-- Desain dan warna antarhalaman konsisten karena seluruhnya menggunakan **styles.css** yang sama.  
-- Semua interaksi visual (animasi, scroll, efek klik) dikontrol oleh **script.js**.
-
----
-
-### 🪄 Alur Navigasi Pengguna
-1. Pengguna membuka **index.html** (beranda).  
-2. Dari navbar, mereka bisa berpindah ke **Tentang, Menu, Galeri, Cerita,** atau **Kontak.**  
-3. Di halaman **Kontak**, pengguna bisa mengirim pesan menggunakan form interaktif.  
-4. Tombol “↑” di kanan bawah memudahkan pengguna kembali ke atas halaman kapan pun.
-
----
  💡 **Kesimpulan:**  
  Struktur website ini menerapkan konsep **multi-page static website**, di mana setiap halaman memiliki fungsinya sendiri, namun tetap konsisten dari segi tema, desain, dan navigasi.
 
